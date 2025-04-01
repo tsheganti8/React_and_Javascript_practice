@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /*Creates two columns with 1:2 ratio*/
+     grid-gap: 10px; /*Adds gap between the grid items */
+}
+
+.item {
+    grid-column: 1/ 2span; /* Spans across two columns */
+}

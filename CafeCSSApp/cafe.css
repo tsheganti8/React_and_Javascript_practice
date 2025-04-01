@@ -1,0 +1,111 @@
+h1, h2{
+    font-family: Impact, serif;
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+p{
+    text-align: center;
+}
+.page-top{
+    background-color: burlywood;
+}
+body{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+.page-bottom{
+    background-color: burlywood;
+}
+.established{
+ font-style: italic;
+}
+.flavour{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.price{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+.Coffee{
+    text-align: center;
+}
+
+.Coffee p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavour{
+    text-align: left;
+    width: 75%;
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 2px
+}
+
+.desserts p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.img{
+    padding-top: 18px;
+}
+
+.footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+ page-bottom{
+    font-size: 13px;
+    padding-bottom: 10px;
+} 
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }

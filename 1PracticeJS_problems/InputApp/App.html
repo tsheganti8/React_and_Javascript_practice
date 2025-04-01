@@ -1,0 +1,29 @@
+<form>
+    <div>
+    <label for="Input1">
+      1st Number:
+    </label>
+    <input class="Input1"
+    type="text"
+    name="Input1"
+    id="Input1"
+    placeholder="Type Number"
+    />
+    </div>
+    <div>
+    <label for="Input2">
+      2nd Number :
+    </label>
+    <input class="Input2"
+    type="text"
+    id="Input2"
+    name="Input2" 
+    placeholder="Type Number"
+    />
+    </div>
+    <div>
+    <button onClick=HandleClick(multiply) id="multiply">Multiply</button>
+    <button id="divide" onClick=HandleClick(divide)>Divide</button>
+    </div>
+    <p class="result">The Result is: <span id=output>0</span></p>
+    </form>

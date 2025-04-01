@@ -1,0 +1,21 @@
+{
+  "name": "react-interview-q1",
+  "version": "1.0.0",
+  "description": "offline react base exercise",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterRyd3l/react-interview-q1.git"
+  },
+  "author": "James Duan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterRyd3l/react-interview-q1/issues"
+  },
+  "homepage": "https://github.com/MasterRyd3l/react-interview-q1#readme",
+  "devDependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}

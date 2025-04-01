@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+   <p style="padding-bottom: 25px;">Please fill out this form with the required information</p>
+
+    <form action="register" class="registration">
+        <div class="topform">
+        <fieldset>
+           <label for="first-name">Enter Your First Name:</label>
+            <input id="first-name" name="first-name" type="text" required />
+        </fieldset>
+        <fieldset>
+            <label for="last-name">Enter Your Last Name:</label>
+            <input type="text" name="last-name" id="last-name" required>
+        </fieldset>
+        <fieldset>
+            <label for="email">Enter Your Email:</label>
+            <input type="text" name="email" id="email" required>
+
+        </fieldset>
+        <fieldset>
+            <label for="password">Enter Your Password:</label>
+            <input type="text" name="password" id="password" pattern="[a-z0-5]{8,}"required>
+        </fieldset>
+    </div>
+        <hr>
+            <legend>Account type (required)</legend>
+            <label for="personal-account"></label><input id="personal-account" type="radio" name="personal" id="personal" class="account" checked>Personal</label>
+            <label for="business-account"><input id="business-account" type="radio" name="business" id="business" class="account">Business</label>
+        </fieldset>
+        <hr>
+       <fieldset>
+            <label for="profile-picture">Upload a profile picture:</label>
+            <input type="file" name="file" id="profile-picture">
+        </fieldset>
+        <fieldset>
+            <label for="age">Input your age (years): 
+            <input id="age" type="number" name="age" min="13" max="120" /></label>
+        </fieldset>
+        <fieldset>
+            <label for="selectlist">How did you hear about us?</label>
+            <select name="selectlist" id="selectlist" class="selectlist" class="selectlist">
+                <option value="1">facebook</option>
+                <option value="2">instagram</option>
+                <option value="3">youtube</option>
+                <option value="4">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Provide a bio:</label>
+            <textarea name="bio" id="" cols="30" rows="10" placeholder="I coding in the beach"></textarea>
+        </fieldset>
+        <input type="checkbox" name="accept" id="terms">
+            I accept the terms and conditions
+        <fieldset>
+        <button class="submit">Submit</button> 
+        </fieldset>
+        
+    </form>
+</body>
+</html>
